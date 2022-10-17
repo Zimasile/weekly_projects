@@ -1,0 +1,33 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: darkgray;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+    padding-right: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    justify-content: space-between;
+    display: inline-flex;
+    padding-left: 30px;
+}
+
+a:hover {
+    color: darkcyan
+}
